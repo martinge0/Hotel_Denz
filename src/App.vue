@@ -1,6 +1,8 @@
 <template>
   <v-app>
-    <v-app-bar app color="primary" dark><Header /></v-app-bar>
+    <v-app-bar app color="#FFFFFF" flat>
+      <Header />
+    </v-app-bar>
 
     <v-main>
       <router-view />
