@@ -5,11 +5,11 @@
 
       <v-spacer></v-spacer>
       <v-toolbar-items>
-        <v-btn text>Home</v-btn>
+        <v-btn text>Начало</v-btn>
 
-        <v-btn text>About</v-btn>
+        <v-btn text>За нас</v-btn>
 
-        <v-btn text>Contact</v-btn>
+        <v-btn text>Контакти</v-btn>
       </v-toolbar-items>
     </v-toolbar>
   </v-container>
