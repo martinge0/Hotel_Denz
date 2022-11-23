@@ -1,6 +1,7 @@
 <template>
-  <v-container>
-    <div class="block galleryBlock">
+  <div class="block galleryBlock">
+    <v-container>
+      <h2 class="text-center">Галерия</h2>
       <v-row>
         <v-col v-for="n in 9" :key="n" class="d-flex child-flex" cols="4">
           <v-img
@@ -20,8 +21,8 @@
           </v-img>
         </v-col>
       </v-row>
-    </div>
-  </v-container>
+    </v-container>
+  </div>
 </template>
 
 <script>
