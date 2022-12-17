@@ -10,7 +10,6 @@
 import Hero from "../components/Hero";
 import Gallery from "../components/Gallery";
 import Rooms from "../components/Rooms";
-
 export default {
   name: "Home-page",
 

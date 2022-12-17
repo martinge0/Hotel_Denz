@@ -7,9 +7,16 @@
 
       <v-spacer></v-spacer>
 
-      <v-btn text v-show="$vuetify.breakpoint.smAndUp">Начало</v-btn>
-      <v-btn text v-show="$vuetify.breakpoint.smAndUp">За нас</v-btn>
-      <v-btn text v-show="$vuetify.breakpoint.smAndUp">Кoнтакти</v-btn>
+      <v-btn text v-show="$vuetify.breakpoint.smAndUp" to="/">Начало</v-btn>
+      <v-btn text v-show="$vuetify.breakpoint.smAndUp" to="/about"
+        >За нас</v-btn
+      >
+      <v-btn text v-show="$vuetify.breakpoint.smAndUp" to="/контакти"
+        >Кoнтакти</v-btn
+      >
+      <v-btn text v-show="$vuetify.breakpoint.smAndUp" to="/reservation"
+        >Резервирай</v-btn
+      >
     </v-app-bar>
 
     <v-navigation-drawer v-model="drawer" absolute top temporary>

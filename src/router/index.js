@@ -19,10 +19,21 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/AboutView.vue"),
   },
+  {
+    path: "/контакти",
+    name: "contact",
+    component: () => import("../views/ContactView.vue"),
+  },
+  {
+    path: "/reservation",
+    name: "reservation",
+    component: () => import("../views/ReservationView.vue"),
+  },
 ];
 
 const router = new VueRouter({
   routes,
+  mode: "history",
 });
 
 export default router;

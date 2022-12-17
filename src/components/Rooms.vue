@@ -11,7 +11,7 @@
 
             <v-card-subtitle class="pb-0">{{ item.subtitle }}</v-card-subtitle>
 
-            <v-card-text class="text--primary">
+            <v-card-text class="text--primary text-truncate">
               <div>{{ item.description }}</div>
             </v-card-text>
 
